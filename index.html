@@ -2,16 +2,17 @@
 <html>
     <head>
         <title>Alexander's Blog</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <center>
-        <img src="https://pbs.twimg.com/profile_images/1436623450471387137/FFHSSk5Q_400x400.jpg" alt="Alexander">
-        <h1>🖥️🖥️🖥️Alexander's Blog</h1>
-        </center>
-        <hr size="4" noshade>
-        <p>Welcome to Alexander's blog where you get every updates on both local and international happenings.</p>
+        <div class="site-name">
+                <img class="circular" src="https://pbs.twimg.com/profile_images/1436623450471387137/FFHSSk5Q_400x400.jpg" alt="Alexander">
+                <h1>🖥️🖥️🖥️Alexander's Blog</h1>
+                <hr size="4" noshade>
+        </div>
+        <center><p>Welcome to Alexander's blog where you get every updates on both local and international happenings.</p></center>
         <br>
-        <h2>HEADLINES</h2><br>
+        <h2 id="heading">HEADLINES</h2><br>
         <ul>
         <li><a href="https://punchng.com/forget-2023-presidency-tinubu-supporters-tell-osinbajo-others/">Forget 2023 presidency, Tinubu supporters tell Osinbanjo, others</a></li>
         <li><a href="https://punchng.com/catholic-church-reinstates-suspended-lagos-priest-who-banned-igbo-songs-in-parish/">Catholic church reinstates suspended Lagos priest who banned Igbo songs in parish</a></li>
@@ -23,8 +24,8 @@
         <li><a href="https://punchng.com/breaking-austria-suspends-mandatory-covid-19-vaccine-law/">Austria suspends mandatory COVID-19 vaccine law</a></li>
         </ul>
         <br>
+        <div class="trending">
         <h2>TRENDING TOPICS</h2>
-        <br>
         <ul>
         <li><a href="https://www.edsurge.com">EDUCATION</a></li>
         <li><a href="https://www.buzzfeed.com">ENTERTAINMENT</a></li>
@@ -32,9 +33,11 @@
         <li><a href="https://www.WSJ.com">POLITICS</a></li>
         <li><a href="https://www.techcrunch.com">TECHNOLOGY</a></li>
         </ul>
+        </div>
         <br>
         <hr size="3" noshade>
-        <h3>LOGIN</h3><br>
+        <div class="form">
+            <h2>LOGIN</h2><br>
         <form>
             <label for="username">
                 Username:
@@ -44,24 +47,28 @@
                 Password:
                 <input type="password" id="password" name="password">
             </label><br>
-            <button>SUBMIT</button>
-            <a href="forgotpassword.html">forgot password</a>
+            <button class="btn">SUBMIT</button><br>
+            <a href="forgotpassword.html">forgot password?</a>
             <p>Don't have an account? <a href="signup.html">sign up</a></p>
         </form>
+        </div>
         <br>
         <br>
         <hr size="3" noshade>
-        <p><strong>Editor in Chief</strong></p>
+        <div class="profile">
+        <p class="edit"><strong>EDITOR IN CHIEF</strong></p>
         <p>UKACHUKWU EBUKA FRANCIS</p>
-        <p><strong>WEB DEVELOPER</strong></p>
-        <p>UKACHUKWU EBUKA ALEXANDER</p><br>
-        <p><strong>DEVELOPER CONTACTS</strong></p>
+        <p class="edit"><strong>WEB DEVELOPER</strong></p>
+        <p>UKACHUKWU EBUKA ALEXANDER</p>
+        <p class="edit"><strong>DEVELOPER CONTACTS</strong></p>
         <p>PHONE NUMBER: 08021226974</p>
-        <p><a href="https://twitter.com/AlexEbuka7">TWITTER</a></p>
-        <p><a href="https://www.facebook.com/francis.ukachukwu.96/">FACEBOOK</a></p>
-        <p><a href="https://medium.com/@fralexander1999">MEDIUM</a></p><br>
-        <center>
-            <p>copyright 2022</p>
-        </center>
+        </div>
+        <div class="footer">
+        <a class="anchor" href="https://twitter.com/AlexEbuka7">TWITTER</a>
+        <a class="anchor" href="https://www.facebook.com/francis.ukachukwu.96/">FACEBOOK</a>
+        <a class="anchor" href="https://medium.com/@fralexander1999">MEDIUM</a>
+        <a class="anchor" href="https://t.me/@Freezy0000">TELEGRAM</a>
+        <p class="footer2">copyright 2022</p>
+        </div>
     </body>
 </html>
